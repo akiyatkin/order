@@ -5,6 +5,7 @@ use infrajs\ans\Ans;
 use infrajs\excel\Xlsx;
 
 $ans = array();
+$ans['msg'] = 'asdf';
 
 
-return $ans;
+return Ans::ret($ans);

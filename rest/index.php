@@ -14,6 +14,6 @@ date_default_timezone_set("Europe/Samara");
 return Rest::get( function (){
 
 }, function ($name) {
-	$php = Path::theme('-showcase/api/'.$name.'.php');
+	$php = Path::theme('-order/rest/'.$name.'.php');
 	if ($php) return include($php);
 });
